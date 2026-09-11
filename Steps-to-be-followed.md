@@ -43,3 +43,45 @@ Action: Open another terminal and run the following:
       jupyter --version
       jupyter lab #(Running the Jupyter lab, and extract the Token and submit to Password/Token)
 ```
+
+7. Install Oracle VirtualBox - For Virtualization 
+   - URL : https://www.virtualbox.org/
+   - URL : https://docs.docker.com/desktop/troubleshoot-and-support/troubleshoot/topics/#virtualization
+   - CheckPoint : Enable virtualization from BIOS - [Enabled]
+
+8. Install Docker Desktop for Windows - For Containers
+   - URL : https://docs.docker.com/desktop/troubleshoot-and-support/troubleshoot/topics/#virtualization
+
+(For Windows)
+https://www.docker.com/products/docker-desktop/
+
+(For Linux)
+```bash
+apt-get update -y && apt-get install docker.io -y #(for Ubuntu)
+yum update -y && yum install docker -y #(for Fedora/RedHat)
+systemctl start docker #(for Fedora/RedHat)
+docker --version
+
+```
+```bash
+   $ docker --version
+   $ docker images
+   $ docker ps -a
+   $ docker rmi <<CONTAINER_ID>>
+   $ docker rmi $(docker ps -a)
+   $ docker rm  <<IMAGE_ID>>
+   $ docker rm $(docker images -a)
+```
+
+9. Setup Docker Container Registry
+- URL: hub.docker.com
+
+10. Install minikube
+- URL: https://minikube.sigs.k8s.io/docs/
+
+11. Install Kubectl
+URL: https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
+
+```bash
+kubectl version
+```
