@@ -1,0 +1,2 @@
+def genereatTaxAmount(x):
+    return(x*0.30)
