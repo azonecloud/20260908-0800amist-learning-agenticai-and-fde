@@ -26,7 +26,7 @@ print("Name of the person",person["name"])
 # 2. **Accessing Values:** You can access the value associated with a specific key using square brackets `[]`.
 
 # Accessing values using keys
-vname, vage,voccupation = person['name'], person['age'], person['occupation']
+vname,vage,voccupation = person['name'], person['age'], person['occupation']
 
 print(vname)  # Output: John Doe
 print(vage)   # Output: 30
