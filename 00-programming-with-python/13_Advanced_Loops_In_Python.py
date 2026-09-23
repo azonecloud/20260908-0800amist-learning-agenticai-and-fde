@@ -41,10 +41,10 @@ else:
 print("\n========== LOGIN AUTHENTICATION ==========")
 
 username = "admin"
-password = "1234"
+password = "12345"
 
 entered_username = "admin"
-entered_password = "1234"
+entered_password = "12345"
 
 if entered_username == username:
 
